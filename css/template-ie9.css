@@ -1,0 +1,24 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.2
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ 
+ /* Styles for IE9
+-----------------------------------------------------------------------------------*/
+.sequence .slide-image.left,
+.sequence .slide-image.right  {
+	-webkit-transform: translateX(0px);
+	   -moz-transform: translateX(0px);
+			transform: translateX(0px);
+}
+
+.sequence .slide-image.top ,
+.sequence .slide-image.bottom  {
+	-webkit-transform: translateY(0px);
+	   -moz-transform: translateY(0px);
+			transform: translateY(0px);
+}

@@ -1,0 +1,294 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* @max width 980px 
+-----------------------------------------------------------------------------------*/
+@media (max-width: 980px) {
+
+	 /* Template
+	--------------------------------------------------------------*/
+	.container-fluid {
+		padding: 20px;
+		overflow: hidden;
+	}
+	#top-toolbar {
+		float: none;
+		overflow: hidden;
+		padding: 12px 0 0 0;
+	}
+	#header .btn-navbar {
+		display: block;
+		float: right;
+		padding: 30px 15px 30px 0;
+		background: transparent;
+		color: #000;
+		border: 0;
+	}
+	#header .btn-navbar:hover,
+	#header .btn-navbar:active,
+	#header .btn-navbar.active {
+		color: #000;
+	}
+	#header .btn-navbar .icon-bar + .icon-bar {
+		margin-top: 3px;
+	}
+	#header .btn-navbar .icon-bar {
+		width: 40px;
+		height: 4px;
+		display: block;
+		background-color: #000;
+		-webkit-border-radius: 2px;
+		   -moz-border-radius: 2px;
+				border-radius: 2px;
+	}
+	#header .logo {
+		margin: 20px 0;
+	}
+	#menu .container-fluid {
+		padding: 0 20px;
+	}
+	#menu .nav-collapse {
+		float: none;
+		width: 100%;
+	}
+	#slider 	.container-fluid {
+		padding: 0;
+		margin: 0;
+		overflow: hidden;
+	}
+	#banner {
+		background-attachment: scroll;
+	}
+	#banner-bg {
+		padding: 50px;
+	}
+
+	 /* Menu
+	--------------------------------------------------------------*/
+	.svn-menu {
+		margin-top: 30px;
+	}
+	.svn-menu > li {
+		float: none;
+		border: 0;
+		background: none;
+		padding: 0;
+		border-top: 1px solid #ddd;
+	}
+	.svn-menu > li > a,
+	.svn-menu > li.parent > a,
+	.svn-menu > li.parent > span.separator  {
+		float: none;
+		margin: 0;
+		width: auto;
+		padding: 0 0 0 15px;
+		line-height: 48px;
+		height: auto;
+	}
+	.svn-menu li.parent > a,
+	.svn-menu li.parent > span.separator {
+		margin-right: 60px;
+	}
+	/* Mobile Caret */
+	.svn-menu li.parent > span.caret,
+	.svn-menu ul li.parent > span.caret  {
+		display: block;
+		margin:0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 24px 29px;
+		cursor: pointer;
+		border: 0;
+		background-color: #e2e2e2;
+		background-image: url(../images/mobile/mobile-menu-arrow.png);
+		background-repeat: no-repeat;
+		background-position: 50% 55%;
+	}
+	.svn-menu > li.activet > span.caret,
+	.svn-menu > li.parent:hover > span.caret,
+	.svn-menu > li.active.parent > span.caret {
+		border: 0;
+	}
+	/* Submenus */
+	.svn-menu ul li:first-child {
+		margin-top: 15px;
+	}
+	.svn-menu ul li:last-child {
+		margin-bottom: 15px;
+	}
+	.svn-menu ul {
+		background: none;
+		border: 0;
+		height: 0;
+		margin-top: 0 !important;
+		margin-left: 15px;
+		-webkit-box-shadow: none;
+				box-shadow: none;
+	}
+	.svn-menu ul li { width: 100%!important; }
+	.svn-menu ul ul { margin-left: 30px!important; }
+	.svn-menu ul ul ul { margin-left: 35px !important; }
+
+	.svn-menu ul,
+	.svn-menu ul ul,
+	.svn-menu ul ul ul {
+		display: block;
+		visibility: visible !important;
+		opacity: 1 !important;
+		border:0 !important; 
+		position: static;
+		top: auto;
+		left: auto;
+	}
+	
+	/* Seven Slider 
+	--------------------------------------------------------------*/
+	.sequence .text-block { padding: 20px !important; }
+	.sequence .text-block .slide-text { padding-right: 10px !important; }
+	.svn-slider .titles-list ul.nav { display: none !important; }
+	
+	/* Text Block */
+	.sequence .text-block.left { bottom: 20px !important; }
+	.sequence .animate-in .text-block.left { left: 30px !important; }
+	.sequence .text-block.bottom { left: 30px !important; }
+	.sequence .animate-in .text-block.bottom { bottom: 20px !important; }
+	.sequence .text-block.fade { left: 30px !important; bottom: 20px !important; }
+
+}
+
+
+ /* @ min-width 980px
+-----------------------------------------------------------------------------------*/
+@media (min-width: 980px) {
+	.svn-menu ul.collapse {
+	  height: auto !important;
+	  overflow: visible !important;
+	  -webkit-transition: none !important;
+		 -moz-transition: none !important;
+		  -ms-transition: none !important;
+		   -o-transition: none !important;
+			  transition: none !important;
+	}
+
+}
+
+ /* @ max-width 768px
+-----------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+
+	body {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#banner-bg {
+		padding: 40px;
+	}
+	#banner h1 {
+		font-size: 42px;
+	}
+	#banner h2 {
+		font-size: 30px;
+	}
+	#bottom-b .row-fluid [class*="span"]:last-child {
+	border: 0;
+	padding-left: 0;
+	}
+	.block-wrap {
+		padding: 15px 30px;
+	}
+	.sidebar-right {
+		border: 0;
+		padding-left: 0;
+	}
+	.sidebar-left {
+		border-right: 0;
+		padding-right: 0;
+	}
+	#footer-menu {
+		width: 100%;
+	}
+	#footer .copyrights {
+		width: 100%;
+		text-align: center;
+	}
+	#isotope-container .span2,
+	#isotope-container .span3,
+	#isotope-container .span4,
+	#isotope-container .span6 {
+		margin-left: 0!important;
+	}
+	
+	/* K2 */
+	.itemContainer,
+	.latestItemsContainer { width: 100% !important; }
+	
+	/* Seven Slider 
+	--------------------------------------------------------------*/
+	.sequence .text-block h2,
+	.sequence .text-block h2 a {
+		font-size: 24px !important;
+		line-height: 24px !important;
+	}
+	.sequence .text-block a.readmore {
+		width:20px !important;
+		height: 15px !important;
+		border: 0 !important;
+	}
+
+}
+
+ /* @ max-width 480px
+-----------------------------------------------------------------------------------*/
+@media (max-width: 480px) {
+	
+	.logo {
+		width: 70%;
+		height: 70%;
+	}
+	#banner-bg {
+		padding: 30px;
+	}
+	.seven-news .intro-text {
+		float: none;
+		width: 100%;
+		padding: 18px;
+	}
+	.flex-slider-container {
+	}
+	
+	/* K2 */
+	div.itemToolbar ul,
+	div.itemToolbar ul li,
+	div.catToolbar ul li {
+		display: block;
+		padding: 3px 0 !important;
+		float: left;
+		width: 100%;
+		text-align: left !important;
+	}
+	
+	/* Seven Slider 
+	--------------------------------------------------------------*/
+	.sequence .text-block h2,
+	.sequence .text-block h2 a {
+		font-size: 18px !important;
+		line-height: 21px !important;
+	}
+	.sequence .text-block .subtitle {
+		display: none;
+	}
+	#footer .footer-menu  {
+	float: none;
+	width: 100%;
+	}
+	#footer ul li:first-child {
+		padding:0;
+	}
+
+}

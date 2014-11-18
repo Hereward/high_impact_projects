@@ -1,0 +1,160 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* Basics
+-----------------------------------------------------------------------------------*/
+/* Reset */
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, 
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, caption { margin:0; padding:0; border:0; outline:0; font-size:100%; font-weight: normal; background:transparent; }
+
+html {
+	height: 100%;
+}
+
+p {
+	margin: 12px 0;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+body {
+	height: 100%;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	color: #007dca;
+	font-weight: normal;
+	line-height: 2.0em;
+	background: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: normal;
+	text-align: center;
+}
+
+h1 {
+	font-size: 250px;
+	line-height: 300px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 48px;
+	line-height: 60px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 30px;
+}
+
+.error {
+	border-top: 4px solid #008ae0;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.error-box,
+.error-box-inside {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.error-box-line {
+	position: absolute;
+	top: 55%;
+	width: 100%;
+	height: 10px;
+	background: #ffffff;
+	z-index: 100;
+}
+
+.home-btn {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.home-btn a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.home-btn a.btn {
+	font-weight: bold;
+	padding: 20px 40px 20px 60px;
+	background-color: #007dca;
+	background-image: url(../../images/system/error-icon.png);
+	background-repeat: no-repeat;
+	background-position: 20px 50%;
+	-webkit-transition: all 200ms ease-in-out;
+	   -moz-transition: all 200ms ease-in-out;
+		-ms-transition: all 200ms ease-in-out;
+		 -o-transition: all 200ms ease-in-out;
+			transition: all 200ms ease-in-out;
+}
+
+.home-btn a.btn:hover {
+	background-color: #000000;
+}
+
+#outline {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#errorboxoutline {
+	max-width: 900px;
+	margin: 0px;
+	padding: 0px;
+}
+
+@media (max-width: 768px) {
+h1 {
+	font-size: 216px;
+	line-height: 250px;
+}
+
+h2 {
+	font-size: 36px;
+	line-height: 48px;
+
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 30px;
+}
+}
+
+@media (max-width: 480px) {
+h1 {
+	font-size: 144px;
+	line-height: 172px;
+}
+}
+

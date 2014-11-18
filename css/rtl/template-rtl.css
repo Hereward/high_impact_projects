@@ -1,0 +1,79 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* template
+-----------------------------------------------------------------------------------*/
+body.rtl #header .btn-navbar { float: left; }
+body.rtl #menu .nav-collapse { float: right; }
+body.rtl #user-toolbar { float: left; }
+
+
+/* To top scroller */
+body.rtl a#totop { 
+	right: auto;
+	left:10px;
+}
+
+/* Sidebars */
+body.rtl .sidebar-left { border-right:0; border-left: 1px solid #f0f0f0; padding-left: 25px; }
+body.rtl .sidebar-right { border-left:0; border-right: 1px solid #f0f0f0; padding-right: 25px; }
+
+ /* menu
+-----------------------------------------------------------------------------------*/
+body.rtl .svn-menu > li {
+	float: right;
+	border-left: 0;
+}
+
+body.rtl .svn-menu li.parent span.caret {
+	top: 50%;
+	right: auto;
+	left:14px;
+}
+
+body.rtl .svn-menu > li.parent > a { padding: 0 20px 0 30px; }
+body.rtl .svn-menu ul { left:auto; right:0; }
+
+body.rtl .svn-menu ul li.parent > span.caret {
+	border-right: 3px solid #000;
+	border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	border-left: 3px solid transparent;
+}
+
+body.rtl .svn-menu ul li.active > span.caret,
+body.rtl .svn-menu ul li.parent:hover > span.caret {
+	border-right:3px solid #fff;
+	border-left: 3px solid transparent;
+}
+
+body.rtl .svn-menu ul ul { 
+	left: auto; 
+	right: 100%; 
+}
+
+ /* Search
+-----------------------------------------------------------------------------------*/
+body.rtl #mod-finder-searchform.form-search input {
+	padding: 6px 12px 6px 40px;
+}
+
+body.rtl #mod-finder-searchform.form-search input:hover,
+body.rtl #mod-finder-searchform.form-search input:focus {
+	padding: 6px 12px 6px 60px;
+}
+
+body.rtl #mod-finder-searchform.form-search button {
+	position: absolute;
+	top: 3px;
+	right: auto;
+	left: 3px;
+}
+
+/* Logim */
+body.rtl .login-modal .close { float: left; }

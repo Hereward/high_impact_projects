@@ -1,0 +1,243 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* template.css
+------------------------------------------------------------------------------------*/
+a,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover {
+	color: #d71724;
+}
+
+#top-toolbar {
+	border-top: 4px solid #d71724;
+}
+
+#bottom-bar .container-fluid { 
+	background-color: #d71724;
+}
+
+ /* addons.css
+------------------------------------------------------------------------------------*/
+.module.color-title .module-title {
+	background: #d71724;
+}
+
+.module.color-box {
+	background:#d71724;
+	color: #f2d8da;
+	padding: 20px;
+}
+
+.module.color-box  a { color: #fff; }
+.module.color-box a:hover { color: #000; }
+.module.color-box .module-title { border: 0; }
+
+.module.color-box .module-title h3 {
+	color: #fff;
+	border: 0;
+}
+
+.module.border-color .module-title {
+	border-bottom: 3px solid #d71724;
+}
+
+.module.border-color-top .module-title {
+	border-top: 3px solid #d71724;
+	border-bottom: 0;
+}
+
+.portfolio-nav .svn.btn-group a.btn:hover,
+.portfolio-nav .svn.btn-group a.btn:focus,
+.portfolio-nav .svn.btn-group.open a.btn {
+	color: #d71724;
+}
+
+.portfolio-nav .svn.btn-group a:hover span.caret {
+	border-top: 4px solid #d71724;
+}
+
+.portfolio-nav .svn.btn-group.open a span.caret,
+.portfolio-nav .svn.btn-group.open a:focus span.caret {
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid #d71724;
+}
+
+ /* menu.css
+------------------------------------------------------------------------------------*/
+/* root items */
+.svn-menu > li > a:hover,
+.svn-menu > li.active > a,
+.svn-menu > li.parent:hover > a,
+.svn-menu > li.active.parent > a,
+.svn-menu > li > span.separator:hover,
+.svn-menu > li.active > span.separator,
+.svn-menu > li.parent:hover > span.separator,
+.svn-menu > li.active.parent > span.separator  {
+	background: #d71724;
+	color:#fff;
+}
+
+/* submenus */
+.svn-menu ul   {
+	border-top:2px solid #d71724;
+}
+
+.svn-menu ul li a:hover,
+.svn-menu ul li.active > a,
+.svn-menu ul li.parent:hover > a,
+.svn-menu ul li.active.parent > a ,
+.svn-menu ul li span.separator:hover,
+.svn-menu ul li.active > span.separator,
+.svn-menu ul li.parent:hover > span.separator,
+.svn-menu ul li.active.parent > span.separator {
+	color: #fff; 
+	background-color: #d71724;
+}
+
+@media (max-width: 980px) {
+	.svn-menu li.parent > span.caret,
+	.svn-menu ul li.parent > span.caret  {
+		background-color: #d71724;
+	}
+}
+
+ /* joomla.css
+------------------------------------------------------------------------------------*/
+.tags span a:hover {
+	background-color: #d71724;
+	color: #fff;
+}
+
+dl.tabs dt.tabs.open span h3 a,
+dl.tabs dt.tabs span h3 a:hover,
+.pane-sliders h3.title.pane-toggler-down a span {
+	color: #d71724;
+}
+
+.image-backdrop,
+.img-intro-btn:hover,
+p.img_caption {
+	background-color: #d71724;
+}
+
+ /* Extensions 
+------------------------------------------------------------------------------------*/
+/* Seven Slider */
+.sequence .text-block h2 a:hover {
+	color: #f01120;
+}
+
+.sequence .text-block a.readmore:hover {
+	background-color: #f01120;
+	border: 1px solid #f01120;
+}
+
+.sequence-pagination li span.active,
+.sequence-pagination li span:active {
+	border: 1px solid #f6f6f6;
+	background-color: #d71724;
+}
+
+.sequence-pagination li span:hover {
+	border: 1px solid #f01120;
+}
+
+.svn-slider .sequence-preloader .preloading .circle {
+	fill: #d71724 !important;
+}
+
+/*Seven Icons */
+.svn-icons .front {
+	background-color: #d71724;
+}
+
+/* Seven News */
+.seven-news {
+	background-color: #d71724;
+}
+
+.seven-news,
+.seven-news p {
+	color: #f2d8da;
+}
+
+.flex-control-paging li a.flex-active  {
+	border: 1px solid #f01120;
+}
+
+ /* Bootstrap Interface Overrides
+------------------------------------------------------------------------------------*/
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	background-color: #d71724;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+	color: #ffffff;
+	background-color: #d71724;
+}
+
+.nav .dropdown-toggle .caret {
+	border-top-color: #d71724;
+	border-bottom-color: #d71724;
+	margin-top: 6px;
+}
+
+.nav .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:focus .caret {
+	border-top-color: #333333;
+	border-bottom-color: #333333;
+}
+
+.dropdown-menu > li > a.selected,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+	text-decoration: none;
+	color: #ffffff;
+	background: #d71724;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	color: #ffffff;
+	text-decoration: none;
+	outline: 0;
+	background: #d71724;
+}
+
+/* Primary Button */
+.btn-group.open .btn-primary.dropdown-toggle ,
+.btn-primary {
+	color: #ffffff;
+	background: #d71724;
+	border: 0;
+	*background-color: #d71724;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+	color: #ffffff;
+	background-image: none;
+	background-color: #000000;
+	*background-color: #000000;
+}

@@ -1,0 +1,427 @@
+﻿/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* GLOBAL
+----------------------------------------------------------------------------------- */
+body {
+	font-size: 14px;
+	line-height: 24px;
+	color: #808080;
+	background-color: #eaeaea;
+}
+
+a {
+	text-decoration: none;
+	outline: none !important;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+p {
+	margin: 12px 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #1f1f1f;
+	margin: 10px 0;
+	letter-spacing: 0;
+	font-weight: 300;
+}
+
+h1 { font-size: 48px; line-height: 60px; }
+h2 { font-size: 36px; line-height: 48px; }
+h3 { font-size: 24px; line-height: 36px; }
+h4 { font-size: 18px; line-height: 27px; }
+h5 { font-size: 14px; line-height: 24px; }
+h6 { font-size: 12px; line-height: 18px; }
+
+h1 a,
+h2 a,
+h3 a {
+	color: #000000;
+}
+
+h4,h5,h6 {
+	text-transform: uppercase;
+}
+
+.page-header {
+	padding-top: 0;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 18px;
+	border-bottom: 1px solid #eee;
+}
+
+small,
+.small {
+	font-size: 11px;
+}
+
+ul,ol {
+	padding: 0;
+	margin: 0 0 12px 10px;
+}
+
+li {
+	line-height: 24px;
+}
+
+pre,
+code {
+	font-size: 12px;
+}
+
+pre {
+	color: #666666;
+	border: 0;
+	border-top: 1px solid #eaeaea;
+	padding: 24px 30px;
+	background: #f5f5f5;
+}
+
+/* Wrapper Containers */
+.container-fluid {
+	background: transparent;
+	margin: 0 auto;
+	padding: 15px 20px;
+}
+
+/* CSS3 Transitions - links */
+a,
+a:link,
+a:visited {
+-webkit-transition:color 70ms linear;
+   -moz-transition:color 70ms linear;
+	-ms-transition:color 70ms linear;
+	 -o-transition:color 70ms linear;
+		transition:color 70ms linear;
+}
+
+ /* Header
+-----------------------------------------------------------------------------------*/
+#header .container-fluid {
+	padding: 0px 20px;
+}
+
+#header .logo h1 {
+	padding: 0;
+	margin: 0;
+	text-transform: none;
+}
+
+#header .logo h1 a {
+	color: #222222;
+}
+
+#header .logo h1 span {
+	padding-left: 10px;
+	font-size: 11px;
+	color: #999;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#header .btn-navbar {
+	display: none;
+}
+
+#header #top-toolbar {
+	padding: 12px 15px 0 15px;
+}
+
+ /* Menu + User Toolbar
+-----------------------------------------------------------------------------------*/
+#menu .container-fluid {
+	padding: 0;
+	border-top: 1px solid #f2f2f2;
+}
+
+#menu .nav-collapse {
+	float: left;
+}
+
+#user-toolbar {
+	float: right;
+	line-height:60px;
+	padding: 18px 0 16px;
+	margin-right: 10px;
+
+}
+
+#user-toolbar ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: block;
+	overflow: hiiden;
+}
+
+#user-toolbar ul li {
+	display: block;
+	float: left;
+	padding: 0 10px; 
+	border-left: 0px solid #f0f0f0;
+}
+
+#user-toolbar ul li:first-child {
+	border:0;
+}
+
+#user-toolbar ul li a {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+#user-toolbar ul li a:hover {
+	color:#000;
+	text-decoration: underline;
+}
+#slider {
+	max-width: 100%;
+}
+ /* Banner
+-----------------------------------------------------------------------------------*/
+#banner {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+#banner .container-fluid {
+	padding: 0 30px;
+	color: #fff;
+}
+
+#banner-bg {
+	float: right;
+	display: block;
+	padding: 72px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#banner h1,
+#banner h2 {
+	color: #fff;
+	display: block;
+	text-shadow: 1px 1px 1px #666;
+}
+
+#banner h2 {
+	font-size: 39px;
+}
+
+ /* Mainbody
+-----------------------------------------------------------------------------------*/
+#mainbody .container-fluid {
+	word-wrap: break-word;
+	padding-bottom: 36px;
+}
+
+#content-area {
+	padding: 15px 0;
+}
+
+ /* Sidebars
+-----------------------------------------------------------------------------------*/
+.sidebar-left .module,
+.sidebar-right .module {
+	margin-bottom: 30px;
+}
+
+.sidebar-right {
+	border-left: 1px solid #ebebeb;
+	padding-left: 20px;
+}
+
+.sidebar-left {
+	border-right: 1px solid #ebebeb;
+	padding-right: 20px;
+}
+
+ /* Bottom-Bar
+-----------------------------------------------------------------------------------*/
+#bottom-bar .container-fluid {
+	padding: 0;
+}
+
+ /* Bottom-B
+-----------------------------------------------------------------------------------*/
+#bottom-b {
+	padding-top: 12px;
+	font-size: 11px;
+	color: #676767;
+}
+
+#bottom-b a {
+	color: #fff;
+}
+
+#bottom-b a:hover {
+	color: #fff;
+}
+
+#bottom-b h2 {
+	margin-top: 0;
+	color: #fff;
+}
+
+#bottom-b { 
+	background: #050505 url(../images/bottom-bg.png) no-repeat 50% 0;
+}
+
+#bottom-b .row-fluid [class*="span"]:last-child {
+	border-left: 1px solid #212121;
+	padding-left: 20px;
+}
+
+#bottom-b .module-title {
+	border: 0;
+}
+
+#bottom-b .module-title h3 {
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+
+}
+
+/* Menu Module */
+#bottom-b .module ul.menu > li {
+	line-height: 24px;
+	color: #676767;
+	border: 0;
+}
+
+#bottom-b .module ul.menu > li a {
+	padding-left: 0;
+	color: #676767;
+	font-size: 11px;
+}
+
+#bottom-b .module ul.menu > li a:hover,
+#bottom-b .module ul.menu > li a:focus,
+#bottom-b .module ul.menu > li a:active,
+#bottom-b .module ul.menu > li.active > a {
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+#bottom-b .module ul.menu ul li a:hover,
+#bottom-b .module ul.menu ul li a:focus,
+#bottom-b .module ul.menu ul li a:active,
+#bottom-b .module ul.menu ul li.active > a {
+	background: none;
+	padding-left: 0;
+}
+
+ /* Footer
+-----------------------------------------------------------------------------------*/
+#footer,
+#footer .container-fluid {
+	background-color: #050505;
+	font-size: 11px;
+	color: #707070;
+	padding: 9px 20px 60px 20px;
+	line-height: 42px;
+	overflow: hidden;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer .copyrights {
+	padding-right: 6px;
+	font-size: 11px;
+}
+
+#footer p {
+	padding: 0;
+	margin: 0;
+}
+
+#footer ul.nav li {
+	float: left;
+	padding: 0px 10px;
+	margin: 6px 0;
+	line-height: 30px;
+	font-size: 11px;
+	border-left: 1px solid #1a1a1a;
+}
+
+#footer ul.nav li:first-child {
+	border-left: 0;
+	padding-left: 0;
+}
+
+#footer ul.nav li a {
+	color: #707070;
+}
+
+#footer ul.nav li a:hover { 
+	background: none;
+	color: #fff;
+}
+
+ /* Disclaimer
+------------------------------------------------------------------------------------------------------*/
+#disclaimer {
+	font-size: 11px;
+	text-align: center;
+}
+
+#disclaimer .container-fluid {
+	padding: 0 20px;
+}
+
+#disclaimer a {
+	color: #fff;
+}
+
+ /* To Top Scroller
+------------------------------------------------------------------------------------------------------*/
+a#totop {
+	display: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 50px;
+	height: 50px;
+	z-index: 99;
+	background-color: rgb(220,220,220);
+	background-color: rgba(0, 0, 0, 0.1);
+	background-image: url(../images/interface/to-top-arrow.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-transition: background 200ms ease-in-out;
+	   -moz-transition: background 200ms ease-in-out;
+        -ms-transition: background 200ms ease-in-out;
+         -o-transition: background 200ms ease-in-out;
+			transition: background 200ms ease-in-out;
+}
+
+a#totop:hover {
+	background-color: rgb(50,50,50);
+	background-color: rgba(0, 0, 0, 0.75);
+}
+

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>Visario</name>
+	<version>1.2</version>
+	<creationDate>10/30/2012</creationDate>
+	<author>Tomasz Herudzinski 7Studio</author>
+	<authorEmail>info@7studio.eu</authorEmail>
+	<copyright>Copyright (C) 2008 - 2013 Tomasz Herudzinski 7Studio</copyright>
+	<description><![CDATA[ <h2 style="color:#000000;">Visario Template ver. 1.2</h2><p>Visario is a minimal, flexible, fully responsive template for Joomla! 3.X CMS, designed and developed by <a href="http://www.7studio.eu" target="_blank">7Studio</a>.</p><p> Available for purchase exclusively at <a href="http://themeforest.net/user/7Studio" target="_blank">ThemeForest</a>.</p><p>If you need help related to this Template, please contact us directly at <a href="http://themeforest.net/user/7Studio" target="_blank">ThemeForest</a></p>.]]>
+	</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>head.php</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>admin</folder>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+		<folder>lib</folder>
+	</files>
+	<positions>
+		<position>toolbar-a</position>
+		<position>toolbar-b</position>
+		<position>menu</position>
+		<position>slider</position>
+		<position>banner</position>
+		<position>top-a</position>
+		<position>top-b</position>
+		<position>breadcrumbs</position>
+		<position>maintop-a</position>
+		<position>maintop-b</position>
+		<position>mainbottom-a</position>
+		<position>mainbottom-b</position>
+		<position>sidebar-left</position>
+		<position>sidebar-right</position>
+		<position>bottom-bar</position>
+		<position>bottom-a</position>
+		<position>bottom-b</position>
+		<position>footer</position>
+		<position>disclaimer</position>
+		<position>login</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_visario.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_visario.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<!-- Basics -->
+			<fieldset name="SVN_STYLE" addfieldpath="/templates/visario/admin/elements">
+				<field name="asset_css" type="asset" extension="css" path="templates/visario/admin/style.css" />	
+				<field name="logoFile" class="" type="media" default="" label="TPL_SVN_LOGO_LABEL" description="TPL_SVN_LOGO_DESC" />			
+				<field name="sitetitle"  class="" type="text" default="" label="JGLOBAL_TITLE" description="JFIELD_ALT_PAGE_TITLE_LABEL" filter="string" />
+				<field name="sitedescription"  class="" type="text" default="" label="JGLOBAL_DESCRIPTION" description="JGLOBAL_SUBHEADING_DESC" filter="string" />
+				<field name="logoMarginTop" type="text" class="input-small" default="60" label="TPL_SVN_LOGOMARGIN_TOP_LABEL" description="TPL_SVN_LOGOMARGIN_TOP_DESC" />	
+				<field name="logoMarginBottom" type="text" class="input-small" default="55" label="TPL_SVN_LOGOMARGIN_BOTTOM_LABEL" description="TPL_SVN_LOGOMARGIN_BOTTOM_DESC" />	
+				<field type="spacer" name="spacer1" />
+				<field name="templateStyle" type="list" default="1" label="TPL_SVN_TEMPLATECOLOR_LABEL" description="TPL_SVN_TEMPLATECOLOR_DESC">
+					<option value="1">TPL_SVN_OPTION_STYLE1</option>
+					<option value="2">TPL_SVN_OPTION_STYLE2</option>
+					<option value="3">TPL_SVN_OPTION_STYLE3</option>
+					<option value="4">TPL_SVN_OPTION_STYLE4</option>
+					<option value="5">TPL_SVN_OPTION_STYLE5</option>
+					<option value="6">TPL_SVN_OPTION_STYLE6</option>
+				</field>
+				<field type="spacer" name="spacer2" />
+				<field name="templateBackgroundColor" class="input-small" type="color" default="#FFFFFF" label="TPL_SVN_BACKGROUND_COLOR_LABEL" description="TPL_SVN_BACKGROUND_COLOR_DESC" />
+				<field type="spacer" name="spacer3" />
+				<field name="templateColor" type="radio" class="btn-group" default="0" label="TPL_SVN_COLOR_LABEL" description="TPL_SVN_COLOR_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="templateLinkColor" class="input-small"  type="color" default="#008AE0" label="TPL_SVN_LINK_COLOR_LABEL" description="" />		
+			</fieldset>
+			
+			<!-- Template Style -->
+			<fieldset name="SVN_FONTS">	
+				<field name="bodyFont" type="list" class="" default="helvetica" label="TPL_SVN_BODY_FONT_LABEL" description="TPL_SVN_BODY_FONT_DESC">
+					<option value="helvetica">TPL_SVN_BODY_ARIAL</option>
+					<option value="georgia">TPL_SVN_BODY_GEORGIA</option>
+					<option value="lucida">TPL_SVN_BODY_LUCIDA</option>
+					<option value="palatino">TPL_SVN_BODY_PALATINO</option>
+					<option value="tahoma">TPL_SVN_BODY_TAHOMA</option>
+					<option value="times">TPL_SVN_BODY_TIMES</option>
+					<option value="trebuchet">TPL_SVN_BODY_TREBUCHET</option>
+					<option value="verdana">TPL_SVN_BODY_VERDANA</option>
+				</field>
+				<field name="bodyFontSize" type="text" class="input-small" default="12" label="TPL_SVN_BODY_FONT_SIZE_LABEL" description="TPL_SVN_BODY_FONT_SIZE_DESC" />	
+				<field name="templateBodyColor" class="input-small" type="color" default="#666666" label="TPL_SVN_BODYFONT_COLOR_LABEL" description="TPL_SVN_BODYFONT_COLOR_DESC" />	
+				<field name="headingsFont" type="list" class="" default="helvetica" label="TPL_SVN_HEADINGS_FONT_LABEL" description="TPL_SVN_HEADINGS_FONT_DESC">
+					<option value="helvetica">TPL_SVN_BODY_ARIAL</option>
+					<option value="georgia">TPL_SVN_BODY_GEORGIA</option>
+					<option value="lucida">TPL_SVN_BODY_LUCIDA</option>
+					<option value="palatino">TPL_SVN_BODY_PALATINO</option>
+					<option value="tahoma">TPL_SVN_BODY_TAHOMA</option>
+					<option value="times">TPL_SVN_BODY_TIMES</option>
+					<option value="trebuchet">TPL_SVN_BODY_TREBUCHET</option>
+					<option value="verdana">TPL_SVN_BODY_VERDANA</option>
+				</field>
+				
+				<field type="spacer" name="spacer4" />
+				<field name="googleFonts" type="radio" class="btn-group" default="0" label="TPL_SVN_GFONTS_LABEL" description="TPL_SVN_GFONTS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="googleFontName" type="text" class="" default="" label="TPL_SVN_FONT_NAME_LABEL" description="TPL_SVN_FONT_NAME_DESC" />
+				<field name="googleFontSelectors" type="textarea" class="" default="" label="TPL_SVN_GFONTS_SELECTORS_LABEL" description="TPL_SVN_GFONTS_SELECTORS_DESC" rows="4" columns="30" filter="raw" />
+				
+				<field type="spacer" name="sapcer5" />
+				<field name="googleFontsSecond" type="radio" class="btn-group" default="0" label="TPL_SVN_GFONTS_LABEL" description="TPL_SVN_GFONTS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="googleFontNameSecond" type="text" class="" default="" label="TPL_SVN_FONT_NAME_LABEL" description="TPL_SVN_FONT_NAME_DESC" />
+				<field name="googleFontSelectorsSecond" type="textarea" class="" default="" label="TPL_SVN_GFONTS_SELECTORS_LABEL" description="TPL_SVN_GFONTS_SELECTORS_DESC" rows="4" columns="30" filter="raw" />			
+			</fieldset>		
+			
+			<!-- Modules Layout -->
+			<fieldset name="SVN_MODULES">
+				<field name="templateWidth" class="input-mini" type="text" default="1000" label="TPL_SVN_TPL_WIDTH_LABEL" description="TPL_SVN_TPL_WIDTH_DESC" />	
+				<field name="sidebarLeftWidth" type="list" default="4" label="TPL_SVN_SIDEBAR_LEFT_WIDTH_LABEL" description="TPL_SVN_SIDEBAR_LEFT_WIDTH_DESC">
+					<option value="2">TPL_SVN_OPTION_SIDEBAR_LEFT_SPAN2</option>
+					<option value="3">TPL_SVN_OPTION_SIDEBAR_LEFT_SPAN3</option>
+					<option value="4">TPL_SVN_OPTION_SIDEBAR_LEFT_SPAN4</option>
+					<option value="5">TPL_SVN_OPTION_SIDEBAR_LEFT_SPAN5</option>
+				</field>		
+				<field name="sidebarRightWidth" type="list" default="4" label="TPL_SVN_SIDEBAR_RIGHT_WIDTH_LABEL" description="TPL_SVN_SIDEBAR_RIGHT_WIDTH_DESC">
+					<option value="2">TPL_SVN_OPTION_SIDEBAR_RIGHT_SPAN2</option>
+					<option value="3">TPL_SVN_OPTION_SIDEBAR_RIGHT_SPAN3</option>
+					<option value="4">TPL_SVN_OPTION_SIDEBAR_RIGHT_SPAN4</option>
+					<option value="5">TPL_SVN_OPTION_SIDEBAR_RIGHT_SPAN5</option>
+					<option value="6">TPL_SVN_OPTION_SIDEBAR_RIGHT_SPAN6</option>
+				</field>
+				<field name="submenuWidth" class="input-mini" type="text" default="210" label="TPL_SVN_SMENU_WIDTH_LABEL" description="TPL_SVN_SMENU_WIDTH_DESC" size="3" limit="3" />
+				
+				<field type="spacer" name="sapcer6" />
+				<field name="topaModules" type="radio" class="btn-group" default="1" label="TPL_SVN_TOP_A_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>
+				<field name="topbModules" type="radio" class="btn-group" default="1" label="TPL_SVN_TOP_B_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>	
+				<field name="maintopaModules" type="radio" class="btn-group" default="1" label="TPL_SVN_MAINTOP_A_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>		
+				<field name="maintopbModules" type="radio" class="btn-group" default="1" label="TPL_SVN_MAINTOP_B_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>
+				<field name="mainbottomaModules" type="radio" class="btn-group" default="1" label="TPL_SVN_MAIN_BOTTOM_A_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>	
+				<field name="mainbottombModules" type="radio" class="btn-group" default="1" label="TPL_SVN_MAIN_BOTTOM_B_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>
+				<field name="bottomaModules" type="radio" class="btn-group" default="1" label="TPL_SVN_BOTTOM_A_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>
+				<field name="bottombModules" type="radio" class="btn-group" default="2" label="TPL_SVN_BOTTOM_B_MODULES_LABEL" description="TPL_SVN_MODULES_DESC">
+					<option value="1">TPL_SVN_MODULES_EQUAL</option>
+					<option value="2">TPL_SVN_MODULES_BOOTSTRAP</option>
+				</field>		
+			</fieldset>
+			
+			<!-- Template Features -->
+			<fieldset name="SVN_FEATURES">
+				<field name="userLogin" type="radio" class="btn-group" default="1" label="TPL_SVN_LOGIN_LABEL" description="TPL_SVN_LOGIN_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="loginText" type="text" default="Login" label="TPL_SVN_LOGIN_TEXT_LABEL" description="TPL_SVN_LOGIN_TEXT_DESC" filter="raw" />	
+				<field name="logoutText" type="text" default="Logout" label="TPL_SVN_LOGOUT_TEXT_LABEL" description="TPL_SVN_LOGOUT_TEXT_DESC" filter="raw" />	
+				
+				<field type="spacer" name="sapcer8" />
+				<field name="userRegistration" type="radio" class="btn-group" default="1" label="TPL_SVN_REGISTER_LABEL" description="TPL_SVN_REGISTER_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="registerText" type="text" default="Register" label="TPL_SVN_REGISTER_TEXT_LABEL" description="TPL_SVN_REGISTER_TEXT_DESC" filter="raw" />	
+				<field name="profileText" type="text" default="Profile" label="TPL_SVN_PROFILE_TEXT_LABEL" description="TPL_SVN_PROFILE_TEXT_DESC" filter="raw" />	
+				<field type="spacer" name="sapcer9" />
+				<field name="templateFavicon" class="" type="media" default="" label="TPL_SVN_FAVICON_LABEL" description="TPL_SVN_FAVICON_DESC" />
+				<field type="spacer" name="sacper10" />
+				<field name="toTop" type="radio" class="btn-group" default="1" label="TPL_SVN_TOTOP_LABEL" description="TPL_SVN_TOTOP_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="copyrights" type="radio" class="btn-group" default="1" label="TPL_SVN_COPYRIGHTS_LABEL" description="TPL_SVN_COPYRIGHTS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>	
+				<field name="copyrightsText" class="" type="textarea" default="" label="TPL_SVN_COPYRIGHTS_TEXT_LABEL" rows="4" columns="30" filter="raw" />	
+				<field name="googleAnalitycs" type="radio" class="btn-group" default="0" label="TPL_SVN_GA_LABEL" description="TPL_SVN_GA_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="googleAnalitycsCode" type="text" default="" label="TPL_SVN_GA_TCODE_LABEL" description="TPL_SVN_GA_TCODE_DESC" />
+				<field type="spacer" name="sapcer11" />
+				<field name="socialIcons" type="radio" class="btn-group" default="0" label="TPL_SVN_SOCIAL_ICONS_LABEL" description="TPL_SVN_SOCIAL_ICONS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="linkFacebook" type="text" default="" label="TPL_SVN_FACEBOOK_LABEL" description="TPL_SVN_FACEBOOK_DESC" filter="raw" />
+				<field name="linkTwitter" type="text" default="" label="TPL_SVN_TWITTER_LABEL" description="TPL_SVN_TWITTER_DESC" filter="raw" />
+				<field name="linkDribbble" type="text" default="" label="TPL_SVN_DRIBBBLE_LABEL" description="TPL_SVN_DRIBBBLE_DESC" filter="raw" />
+				<field name="linkBehance" type="text" default="" label="TPL_SVN_BEHANCE_LABEL" description="TPL_SVN_BEHANCE_DESC" filter="raw" />
+				<field name="linkLinkedIn" type="text" default="" label="TPL_SVN_LINKEDIN_LABEL" description="TPL_SVN_LINKEDIN_DESC" filter="raw" />
+				<field name="linkFlickr" type="text" default="" label="TPL_SVN_FLICKR_LABEL" description="TPL_SVN_FLICKR_DESC" filter="raw" />
+				<field name="linkYoutube" type="text" default="" label="TPL_SVN_YOUTUBE_LABEL" description="TPL_SVN_YOUTUBE_DESC" filter="raw" />
+				<field name="linkVimeo" type="text" default="" label="TPL_SVN_VIMEO_LABEL" description="TPL_SVN_VIMEO_DESC" filter="raw" />
+				<field name="linkGooglePlus" type="text" default="" label="TPL_SVN_GOOGLE_PLUS_LABEL" description="TPL_SVN_GOOGLE_PLUS_DESC" filter="raw" />
+			</fieldset>
+			
+			<!-- Advanced options -->
+			<fieldset name="SVN_ADVANCED">
+				<field name="templateResponsive" type="radio" class="btn-group" default="1" label="TPL_SVN_RESPONSIVE_LABEL" description="TPL_SVN_RESPONSIVE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="k2CSS" type="radio" class="btn-group" default="1" label="TPL_SVN_K2CSS_LABEL" description="TPL_SVN_K2CSS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="customCSS" type="radio" class="btn-group" default="0" label="TPL_SVN_CUSTOM_CSS_LABEL" description="TPL_SVN_CUSTOM_CSS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="customCSScode" class="input-xxlarge code" type="textarea" default="" label="TPL_SVN_CUSTOM_CSS_INPUT_LABEL" description="" rows="6" columns="60" filter="raw" />	
+			</fieldset>		
+		
+		</fields>
+	</config>
+</extension>

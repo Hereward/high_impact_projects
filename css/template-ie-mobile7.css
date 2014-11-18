@@ -1,0 +1,19 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ 
+ /* Style for Windows Mobile 7 
+-----------------------------------------------------------------------------------*/
+a#totop { /* IE MObile 7 doesn't support fixed properties */
+	display: block;
+	position: relative;
+	right: auto;
+	bottom: auto;
+	width: 50px;
+	height: 50px;
+}

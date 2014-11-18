@@ -1,0 +1,81 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* @max width 980px 
+-----------------------------------------------------------------------------------*/
+@media (max-width: 980px) {
+
+
+ /* Menu 
+-----------------------------------------------------------------------------------*/
+body.rtl .svn-menu > li {
+	float: none;
+	background: none;
+}
+
+body.rtl .svn-menu ul,
+body.rtl .svn-menu ul ul,
+body.rtl .svn-menu ul ul ul { 
+	display: block;
+	visibility: visible !important;
+	opacity: 1 !important;
+	top: auto;
+	left: auto;
+}
+
+body.rtl .svn-menu > li > a,
+body.rtl .svn-menu > li.parent > a,
+body.rtl .svn-menu > li.parent > span.separator  {
+	padding: 0 15px 0 0;
+}
+
+body.rtl .svn-menu li.parent > a,
+body.rtl .svn-menu li.parent > span.separator { 
+	margin-right: 0; 
+	margin-left: 60px; 
+}
+
+body.rtl .svn-menu li.parent > span.caret,
+body.rtl .svn-menu ul li.parent > span.caret  {
+	display: block;
+	margin:0;
+	position: absolute;
+	border: 0;
+	top: 0;
+	right: auto;
+	left: 0;
+}
+
+body.rtl .svn-menu ul,
+body.rtl .svn-menu ul ul,
+body.rtl .svn-menu ul ul ul {
+	top: auto;
+	left: auto;	
+	right: auto;
+
+}
+
+body.rtl .svn-menu ul {
+	margin-left: 0;
+	margin-right: 15px;
+
+}
+
+body.rtl .svn-menu ul ul { 
+	margin-left:0 !important;
+	margin-right: 30px ! important;
+}
+
+body.rtl .svn-menu ul ul ul {
+	margin-left:0 !important;
+	margin-right: 45px !important;
+}
+
+
+}
+

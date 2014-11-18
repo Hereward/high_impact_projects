@@ -1,0 +1,187 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ /* Global
+-----------------------------------------------------------------------------------*/
+.svn-menu,.svn-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	line-height: 1em;
+}
+
+.svn-menu:before,
+.svn-menu:after {
+	content: "";
+	display: table;
+}
+
+.svn-menu:after {
+	clear: both;
+}
+
+.svn-menu { zoom: 1; } /* IE7 */
+
+.svn-menu li {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	letter-spacing: 0;
+	text-decoration: none;
+}
+
+.svn-menu li span {
+	overflow: hidden;
+}
+
+.svn-menu li span.image-title {
+	margin-left: 7px;
+}
+
+.svn-menu li.parent span.caret {
+	position: absolute;
+	top: 48%;
+	right: 12px; 
+	text-indent: -9999px;
+	background: transparent; 
+	border-top: 3px solid #ccc;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+}
+
+ /* Root Menu Items - 1 Level
+-----------------------------------------------------------------------------------*/
+.svn-menu > li {
+	float: left;
+	padding: 0 1px 0 0;
+	cursor: pointer;
+	font-size: 14px;
+	border-left: 0px solid #f2f2f2;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.svn-menu > li:first-child {
+	background: none;
+	border:0;
+}
+
+.svn-menu > li > a,
+.svn-menu > li span.separator {
+	display: block;
+	width: auto;
+	float: none;
+	padding: 0 18px;
+	line-height: 60px;
+	height: 60px;
+	color: #565656;
+}
+
+.svn-menu > li.parent > a,
+.svn-menu > li.parent > span.separator {
+	padding: 0 23px 0 18px;
+}
+
+/* carets */
+.svn-menu > li.active > span.caret,
+.svn-menu > li.parent:hover > span.caret,
+.svn-menu > li.active.parent > span.caret {
+	border-top: 3px solid #fff;
+}
+
+ /* Dropdown Menu
+-----------------------------------------------------------------------------------*/
+.svn-menu ul {
+	display: block;
+	height: auto;
+	visibility: hidden;
+	position: absolute;
+	top: 60px;
+	margin: 0;
+	left: 0;
+	z-index: 9999;
+	background: #fff;
+	-webkit-box-shadow:  0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+			box-shadow:  0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.svn-menu ul li {
+	float: none;
+	display: block;
+	border-bottom: 1px solid #f2f2f2;
+	width: 200px;
+	font-size: 11px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.svn-menu ul li:last-child {
+	border: 0;
+}
+
+.svn-menu ul li a,
+.svn-menu ul li span.separator {
+	float: none;
+	display: block;
+	width: auto;
+	height: auto;
+	line-height: 48px;
+	padding: 0 20px;
+	cursor: pointer;
+	color: #555;
+	text-transform: none;
+}
+
+.svn-menu ul li.parent > span.caret {
+	border-top: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+	border-left: 3px solid #000;
+}
+
+.svn-menu ul li.active > span.caret,
+.svn-menu ul li.parent:hover > span.caret {
+	border-left: 3px solid #fff;
+}
+
+ /* Dropdown Menu Levels > 1
+-----------------------------------------------------------------------------------*/
+.svn-menu ul ul {
+	visibility: hidden;
+	top: 0;
+	left: 100%;
+	margin: 0;
+}
+
+ /* No JS
+-----------------------------------------------------------------------------------*/
+.svn-menu li:hover > ul,
+.svn-menu ul li:hover > ul {
+	visibility: visible;
+}
+
+ /* CSS3 Transitions and Border Radius
+-----------------------------------------------------------------------------------*/
+.svn-menu > li > a,
+.svn-menu > li > span.separator {
+	-webkit-transition: all 80ms ease-in;
+	   -moz-transition: all 80ms ease-in;
+		-ms-transition: all 80ms ease-in;
+		 -o-transition: all 80ms ease-in;
+			transition: all 80ms ease-in;
+}
+
+.svn-menu ul li a,
+.svn-menu ul li span.separator {
+	-webkit-transition: none;
+	   -moz-transition: none;
+		-ms-transition: none;
+		 -o-transition: none;
+			transition: none;
+}
+

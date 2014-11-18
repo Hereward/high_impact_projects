@@ -1,0 +1,44 @@
+/**
+ * @package   Visario Joomla! 3.0 Template
+ * @version   1.0
+ * @author    7Studio Tomasz Herudzinski http://www.7studio.eu
+ * @copyright Copyright (C) 2009 - 2012 7Studio Tomasz Herudzinski
+ * @license   Commercial - ThemeForest Regular License - http://themeforest.net/licenses/regular_extended
+**/
+
+ 
+ /* Style for IE7 only
+-----------------------------------------------------------------------------------*/
+/* Define template min width */
+.container-fluid { min-width: 960px; }
+
+.sidebar-right {
+	border: 0;
+	padding-left: 0px;
+}
+
+.sidebar-left {
+	border: 0;
+	padding-right: 0px;
+}
+
+#content {
+	padding: 0;
+	margin: 0;
+}
+
+a#totop { background-color: #999; }
+a#totop:hover { background-color: #222; }
+
+/* svn-menu.css */
+.svn-menu ul.collapse {
+	height: auto;
+	overflow: visible;
+}
+
+.svn-menu ul {
+	min-width: 180px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+}
