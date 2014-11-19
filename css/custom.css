@@ -27,7 +27,7 @@
 
 
 .svn-slider-container {
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
     margin-top:30px;
 }
  
