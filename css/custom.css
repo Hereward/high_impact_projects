@@ -18,3 +18,11 @@
  }
  
  */
+ 
+
+.sequence .slide-image  {
+    background-size: contain !important;
+   /*  -moz-background-size: contain !important; */
+}
+
+ 
