@@ -38,7 +38,7 @@
 }
 
 .svn-menu > li > a:hover, .svn-menu > li.active > a, .svn-menu > li.parent:hover > a, .svn-menu > li.active.parent > a, .svn-menu > li > span.separator:hover, .svn-menu > li.active > span.separator, .svn-menu > li.parent:hover > span.separator, .svn-menu > li.active.parent > span.separator {
- /* background: #d71724; */
+ background: white;
  color: #d71724;
  text-decoration: underline;
 }
