@@ -73,3 +73,7 @@ dl.contact-address {
   display: none !important;
 
 }
+
+.module .widget {
+    text-align: center;
+}
