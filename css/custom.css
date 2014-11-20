@@ -47,6 +47,21 @@ dl.contact-address {
 
 
 .sequence .text-block.bottom {
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,.6);
     margin-left:20px;
+}
+
+.sequence readmore {
+    
+    background: rgba(0,0,0,.6);
+   
+}
+
+.container-fluid {
+    padding-top:0px;
+}
+
+.sequence-prev .sequence-next {
+    /* opacity:0; */
+    display:none;
 }
