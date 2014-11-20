@@ -46,9 +46,7 @@ dl.contact-address {
 }
 
 
-.sequence .text-block.bottom {
-opacity: 0.4;
+.sequence .animate-in .text-block.bottom {
+opacity: 0.7;
 
 }
-
- 
