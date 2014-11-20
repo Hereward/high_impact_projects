@@ -61,7 +61,9 @@ dl.contact-address {
     padding-top:0px;
 }
 
-.sequence-prev, .sequence-next {
-    /* opacity:0; */
-    display:none important!;
+
+
+.sequence .sequence-next, .sequence .sequence-prev {
+  display: none !important;
+
 }
