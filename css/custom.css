@@ -63,5 +63,5 @@ dl.contact-address {
 
 .sequence-prev, .sequence-next {
     /* opacity:0; */
-    display:none;
+    display:none important!;
 }
