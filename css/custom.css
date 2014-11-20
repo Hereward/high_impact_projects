@@ -27,6 +27,10 @@ dl.contact-address {
    /*  -moz-background-size: contain !important; */
 }
 
+.sequence .subtitle {
+    color:white;
+}
+
 
 .svn-slider-container {
     margin-bottom: 0px !important;
