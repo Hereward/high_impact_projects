@@ -18,8 +18,10 @@
  }
  
  */
- 
-
+/* edits by leah, show contact form details */
+dl.contact-address {
+  display: block;
+}
 .sequence .slide-image  {
     background-size: contain !important;
    /*  -moz-background-size: contain !important; */
