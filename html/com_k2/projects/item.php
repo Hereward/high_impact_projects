@@ -284,7 +284,7 @@ defined('_JEXEC') or die;
 				<?php if($extraField->type == 'header'): ?>
 				<h4 class="itemExtraFieldsHeader"><?php echo $extraField->name; ?></h4>
 				<?php else: ?>
-				<!-- <span class="itemExtraFieldsLabel"><?php echo $extraField->name; ?>:</span> -->
+				<span class="itemExtraFieldsLabel"><?php echo $extraField->name; ?>:</span>
                                 
 				<span class="itemExtraFieldsValue"> <?php echo $extraField->value; ?></span>
 				<?php endif; ?>

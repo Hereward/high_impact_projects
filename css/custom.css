@@ -89,5 +89,15 @@ dl.contact-address {
     margin-bottom:10px;
 }
 
+#k2Container div.itemExtraFields ul li span.itemExtraFieldsLabel 
+{
+    display:block;
+    float:none;
+    font-weight:bold;
+    margin:0 0 5px 0;
+    width:auto;
+    /* width:30%; */
+}
+
 
 
