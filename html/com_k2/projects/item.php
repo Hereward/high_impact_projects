@@ -188,6 +188,8 @@ defined('_JEXEC') or die;
 	<?php endif; ?>
 
   <div class="itemBody">
+      
+      <h3>Overview</h3>
 
 	  <!-- Plugins: BeforeDisplayContent -->
 	  <?php echo $this->item->event->BeforeDisplayContent; ?>
