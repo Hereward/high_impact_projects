@@ -286,7 +286,7 @@ defined('_JEXEC') or die;
 				<?php else: ?>
 				<!-- <span class="itemExtraFieldsLabel"><?php echo $extraField->name; ?>:</span> -->
                                 
-				<span class="itemExtraFieldsValue"><?php echo $extraField->name; ?>: <?php echo $extraField->value; ?></span>
+				<span class="itemExtraFieldsValue"> <?php echo $extraField->value; ?></span>
 				<?php endif; ?>
 			</li>
 			<?php endif; ?>
