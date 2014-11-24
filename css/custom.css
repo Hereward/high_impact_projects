@@ -48,7 +48,7 @@ dl.contact-address {
  background: white;
  color: #d71724;
  text-decoration: underline;
- font-weight:bold;
+ /* font-weight:bold; */
 }
 
 
@@ -76,4 +76,10 @@ dl.contact-address {
 
 .span4 .widget {
     text-align: center;
+}
+
+
+.container-fluid {
+word-wrap: break-word;
+padding-bottom: 15px;
 }
