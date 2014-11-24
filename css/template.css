@@ -227,7 +227,7 @@ a:visited {
 -----------------------------------------------------------------------------------*/
 #mainbody .container-fluid {
 	word-wrap: break-word;
-	padding-bottom: 36px;
+	padding-bottom: 15px;
 }
 
 #content-area {
