@@ -78,7 +78,7 @@ dl.contact-address {
     text-align: center;
 }
 
-#k2Container div.itemFullText {
+#k2Container div.itemFullText, #k2Container typeTextarea {
     border: 1px solid #E5E5E5;
     padding: 0px 10px;
 }
