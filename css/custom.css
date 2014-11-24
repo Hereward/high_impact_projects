@@ -106,3 +106,8 @@ line-height: 44px;
 
 
 
+#k2Container .itemExtraFieldsValue ul {
+    list-style-type:square;
+    list-style-position: initial;
+    list-style-image: initial;
+}
