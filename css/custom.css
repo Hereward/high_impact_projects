@@ -121,3 +121,18 @@ line-height: 44px;
     list-style-position: initial;
     list-style-image: initial;
 }
+
+.footer_slideshow h3 {
+    margin:0;
+    padding:0;
+    color: #676766;
+    text-align: center;
+}
+
+.footer_slideshow svn-slider-container {
+    margin:0;
+}
+
+.footer_slideshow .sequence {
+    background-color: transparent;
+}
