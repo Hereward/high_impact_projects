@@ -19,6 +19,12 @@
  
  */
 /* edits by leah, show contact form details */
+
+#menu .container-fluid {
+    border-top: 0px;
+}
+
+
 dl.contact-address {
   display: block;
 }
