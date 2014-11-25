@@ -123,9 +123,9 @@ line-height: 44px;
 }
 
 .footer_slideshow h3 {
-    margin:0;
+    12px 0px 0px 0px;
     padding:0;
-    color: #676766;
+    color: #676766 !important;
     text-align: center;
 }
 
@@ -135,4 +135,10 @@ line-height: 44px;
 
 .footer_slideshow .sequence {
     background-color: transparent;
+}
+
+.footer_slideshow .module-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
 }
