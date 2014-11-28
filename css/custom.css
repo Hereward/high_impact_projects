@@ -20,6 +20,10 @@
  */
 /* edits by leah, show contact form details */
 
+.widget_text {
+    min-height:72px;
+}
+
 #menu .container-fluid {
     border-top: 0px;
 }
