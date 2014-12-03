@@ -20,6 +20,10 @@
  */
 /* edits by leah, show contact form details */
 
+div.catItemIntroText {
+    margin-right:25px;
+}
+
 #content-area li {
     margin-bottom: 10px;
 }
