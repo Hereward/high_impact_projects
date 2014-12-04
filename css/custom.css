@@ -20,6 +20,10 @@
  */
 /* edits by leah, show contact form details */
 
+div.itemExtraFields ul {
+    margin-left:0px;
+}
+
 div.catItemIntroText {
     margin-right:25px;
 }
