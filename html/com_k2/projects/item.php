@@ -276,7 +276,7 @@ defined('_JEXEC') or die;
 	  <?php if($this->item->params->get('itemExtraFields') && count($this->item->extra_fields)): ?>
 	  <!-- Item extra fields -->
 	  <div class="itemExtraFields">
-	  	<h3><?php echo JText::_('K2_ADDITIONAL_INFO'); ?></h3>
+	  	<!-- <h3><?php echo JText::_('K2_ADDITIONAL_INFO'); ?></h3> -->
 	  	<ul>
 			<?php foreach ($this->item->extra_fields as $key=>$extraField): ?>
 			<?php if($extraField->value != ''): ?>
