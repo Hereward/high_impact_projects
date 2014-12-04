@@ -189,7 +189,7 @@ defined('_JEXEC') or die;
 
   <div class="itemBody">
       
-      <h3>Overview</h3>
+      <h3>Presenting Project Environment:</h3>
 
 	  <!-- Plugins: BeforeDisplayContent -->
 	  <?php echo $this->item->event->BeforeDisplayContent; ?>
