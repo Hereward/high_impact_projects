@@ -20,6 +20,12 @@
  */
 /* edits by leah, show contact form details */
 
+div.catItemHeader h2.catItemTitle {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
 div.itemExtraFields ul {
     margin-left:0px !important;
 }
