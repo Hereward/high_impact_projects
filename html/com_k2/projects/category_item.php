@@ -35,28 +35,7 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 
 	<div class="catItemHeader">
 
-	  <?php if($this->item->params->get('catItemTitle')): ?>
-	  <!-- Item title -->
-	  <h2 class="catItemTitle">
-
-	  	<?php if ($this->item->params->get('catItemTitleLinked')): ?>
-			<a href="<?php echo $this->item->link; ?>">
-	  		<?php echo $this->item->title; ?>
-	  	</a>
-	  	<?php else: ?>
-	  	<?php echo $this->item->title; ?>
-	  	<?php endif; ?>
-
-	  	<?php if($this->item->params->get('catItemFeaturedNotice') && $this->item->featured): ?>
-	  	<!-- Featured flag -->
-	  	<span>
-		  	<sup>
-		  		<?php echo JText::_('K2_FEATURED'); ?>
-		  	</sup>
-	  	</span>
-	  	<?php endif; ?>
-	  </h2>
-	  <?php endif; ?>
+	  
 	  
 		<?php if(
 		$this->item->params->get('catItemAuthor') ||
@@ -157,6 +136,29 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 			<?php endif; ?>
 			
 	  </div>
+	  <?php endif; ?>
+          
+          <?php if($this->item->params->get('catItemTitle')): ?>
+	  <!-- Item title -->
+	  <h2 class="catItemTitle">
+
+	  	<?php if ($this->item->params->get('catItemTitleLinked')): ?>
+			<a href="<?php echo $this->item->link; ?>">
+	  		<?php echo $this->item->title; ?>
+	  	</a>
+	  	<?php else: ?>
+	  	<?php echo $this->item->title; ?>
+	  	<?php endif; ?>
+
+	  	<?php if($this->item->params->get('catItemFeaturedNotice') && $this->item->featured): ?>
+	  	<!-- Featured flag -->
+	  	<span>
+		  	<sup>
+		  		<?php echo JText::_('K2_FEATURED'); ?>
+		  	</sup>
+	  	</span>
+	  	<?php endif; ?>
+	  </h2>
 	  <?php endif; ?>
 
 	  <?php if($this->item->params->get('catItemIntroText')): ?>

@@ -20,10 +20,45 @@
  */
 /* edits by leah, show contact form details */
 
-div.catItemHeader h2.catItemTitle {
+
+.HIP_projects .catItemView {
+    padding:0px;
+}
+
+.HIP_projects .itemContainer {
+    max-width: 400px;
+}
+
+.HIP_projects .catItemReadMore {
+    margin-left:10px;
+    font-size: 14px;
+    line-height:18px;
+}
+
+.HIP_projects .catItemIntroText p, .HIP_projects .catItemIntroText div {
+    margin:0px 0px 0px 10px;
+    max-width:380px;
+    font-size: 14px;
+    line-height:18px;
+    
+}
+
+
+#k2Container .HIP_team h2.catItemTitle {
     font-size: 22px;
     font-weight: bold;
-    line-height: 38px;
+    max-height:28px;
+    max-width:240px;
+    line-height:28px;;
+}
+
+#k2Container .HIP_projects div.catItemBody h2.catItemTitle {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    max-height:20px;
+    max-width:380px;
+    margin:0px 0px 0px 10px;
 }
 
 div.itemExtraFields ul {
