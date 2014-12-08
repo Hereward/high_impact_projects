@@ -80,9 +80,18 @@ h2 {
     line-height: 34px;
 }
 
-
+/*
 ul.what_we_do {
     list-style-image: url(/images/interface/alert-message-icon-small.png);
+    list-style-position: inside;
+}
+*/
+
+ul.what_we_do li {
+    background-image: url(/images/interface/alert-message-icon-small.png);
+    background-repeat: no-repeat;
+    line-height: 30px;
+    padding-left: 30px;
 }
 
 
