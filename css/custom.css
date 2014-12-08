@@ -27,7 +27,7 @@
     background-color: #050505;
 }
 
-#bottom-b p {
+#bottom-b p, #bottom-b h3 {
     margin:0;
 }
 
