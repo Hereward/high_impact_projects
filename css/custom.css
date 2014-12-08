@@ -20,6 +20,12 @@
  */
 /* edits by leah, show contact form details */
 
+#content-area .alert {
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+ 
+
 
 .HIP_projects .catItemView {
     padding:0px;
