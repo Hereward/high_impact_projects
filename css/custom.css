@@ -81,6 +81,11 @@ h2 {
 }
 
 
+ul.what_we_do {
+    list-style-image: url(/images/interface/alert-message-icon-small.png);
+}
+
+
 #content-area .alert {
     border-radius: 4px;
     text-transform: none;
