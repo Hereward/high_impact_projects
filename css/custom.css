@@ -20,6 +20,10 @@
  */
 /* edits by leah, show contact form details */
 
+.footer_slideshow .svn-slider .sequence {
+    height: 80px !important;
+}
+
 h2 {
     font-size: 28px;
     line-height: 34px;
