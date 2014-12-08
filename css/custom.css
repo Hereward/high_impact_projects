@@ -20,6 +20,13 @@
  */
 /* edits by leah, show contact form details */
 
+#bottom-b .module ul.menu > li a:hover, #bottom-b .module ul.menu > li a:focus, #bottom-b .module ul.menu > li a:active, #bottom-b .module ul.menu > li.active > a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 0px;
+    background-color: #050505;
+}
+
 .widget_block h3 {
     font-size: 20px;
     line-height: 28px;
