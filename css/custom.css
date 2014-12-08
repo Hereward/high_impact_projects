@@ -20,6 +20,11 @@
  */
 /* edits by leah, show contact form details */
 
+.widget_block h3 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
 .footer-menu p, p.copyrights {
     line-height:80px;
 }
