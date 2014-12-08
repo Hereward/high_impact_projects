@@ -91,7 +91,8 @@ ul.what_we_do li {
     background-image: url(/images/interface/alert-message-icon-small.png);
     background-repeat: no-repeat;
     line-height: 30px;
-    padding-left: 30px;
+    padding-left: 45px;
+    list-style-type: none;
 }
 
 
