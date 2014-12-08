@@ -21,10 +21,10 @@
 /* edits by leah, show contact form details */
 
 h2 {
-font-size: 30px;
-line-height: 38px;
+    font-size: 30px;
+    line-height: 38px;
 }
-}
+
 
 #content-area .alert {
     border-radius: 4px;
