@@ -40,7 +40,7 @@ h2 {
 
 #content-area li.alert {
     list-style-type: none;
-    font-weight: bold;
+    font-weight: normal;
     max-width: 500px;
     padding-bottom: 30px;
     margin-bottom: 20px;
