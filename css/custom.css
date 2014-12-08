@@ -20,7 +20,7 @@
  */
 /* edits by leah, show contact form details */
 
-.footer-menu p, .copyrights p {
+.footer-menu p, p.copyrights {
     line-height:80px;
 }
 
