@@ -23,6 +23,7 @@
 #content-area .alert {
     border-radius: 4px;
     text-transform: none;
+    font-size:18px;
 }
 
 #content-area .alert-success {
