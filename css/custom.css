@@ -20,6 +20,10 @@
  */
 /* edits by leah, show contact form details */
 
+.footer-menu p {
+    line-height:80px;
+}
+
 .footer_slideshow .svn-slider .sequence {
     height: 80px !important;
 }
