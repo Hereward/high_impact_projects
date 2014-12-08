@@ -27,6 +27,10 @@
     background-color: #050505;
 }
 
+#bottom-b p {
+    margin:0;
+}
+
 .widget_block h3 {
     font-size: 20px;
     line-height: 28px;
