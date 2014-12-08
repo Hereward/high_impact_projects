@@ -91,7 +91,7 @@ h2 {
     color: black;
     background-color: white; /* #F98C2E #F8790D #B5111C */
     border-color: white; /* #d6e9c6; */
-    background-image: url(/images/interface/alert-message-icon.png);
+    background-image: url(/images/interface/alert-message-icon-small.png);
 }
 
 #content-area li.alert {
