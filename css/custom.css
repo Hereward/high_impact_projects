@@ -31,7 +31,7 @@
     border-color: #d6e9c6;
 }
 
-#content-area .alert li {
+#content-area li.alert {
     list-style-type:none;
 }
 
