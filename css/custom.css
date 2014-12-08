@@ -24,6 +24,12 @@
     border-radius: 4px;
     text-transform: uppercase;
 }
+
+#content-area .alert-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
  
 
 
