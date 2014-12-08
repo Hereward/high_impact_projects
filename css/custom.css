@@ -196,9 +196,11 @@ dl.contact-address {
     text-align: center;
 }
 
-#k2Container div.itemFullText  {
-    border: 1px solid #E5E5E5;
-    padding: 0px 10px;
+
+
+#k2Container div.itemFullText {
+    border: 0px solid #E5E5E5;
+    padding: 10px 0px;
 }
 
 #k2Container li.typeTextarea {
