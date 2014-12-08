@@ -22,8 +22,10 @@
 
 .widget_block h3 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 28px
+    font-weight: bold;
 }
+
 
 .footer-menu p, p.copyrights {
     line-height:80px;
@@ -139,6 +141,8 @@ div.catItemIntroText {
 
 .widget_text {
     min-height:120px;
+    font-size:14px;
+    line-height: 20px;
 }
 
 #menu .container-fluid {
