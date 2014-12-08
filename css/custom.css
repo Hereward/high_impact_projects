@@ -20,6 +20,18 @@
  */
 /* edits by leah, show contact form details */
 
+div.contact div.control-label {
+    display:none;
+}
+
+div.contact div.control-group {
+    margin-top:30px;
+}
+
+div.contact .form-horizontal .controls {
+margin-left: 0px;
+}
+
 
 div.contact .dl-horizontal dd {
     margin-left: 10px;
