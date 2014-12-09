@@ -259,7 +259,10 @@ defined('_JEXEC') or die;
 	  <?php if($this->item->params->get('itemFullText')): ?>
 	  <!-- Item fulltext -->
 	  <div class="itemFullText">
-	  	<?php echo $this->item->fulltext; ?>
+              <blockquote>
+                  <?php echo $this->item->fulltext; ?>
+              </blockquote>
+	  	
 	  </div>
 	  <?php endif; ?>
 	  <?php else: ?>
