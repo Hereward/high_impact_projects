@@ -268,7 +268,10 @@ defined('_JEXEC') or die;
 	  <?php else: ?>
 	  <!-- Item text -->
 	  <div class="itemFullText">
-	  	<?php echo $this->item->introtext; ?>
+              <blockquote>
+                  <?php echo $this->item->introtext; ?>
+              </blockquote>
+	  	
 	  </div>
 	  <?php endif; ?>
 
