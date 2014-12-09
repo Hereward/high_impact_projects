@@ -308,7 +308,7 @@ dl.contact-address {
 }
 
 .footer_slideshow h3 {
-    12px 0px 0px 0px;
+    margin: 12px 0px 0px 0px;
     padding:0;
     color: #676766 !important;
     text-align: center;
