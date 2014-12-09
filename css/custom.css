@@ -190,14 +190,14 @@ div.catItemIntroText {
 }
 
 .breadcrumb {
-    padding: 4px 15px;
+    padding: 0px 15px;
     margin: 0px 0px 0px 0px;
     list-style: none;
     background-color: white; /* #f5f5f5; */
-    border-bottom: 1px solid #D71724; /* #D2CFCF; */
+    border-bottom: 1px solid #FBD8DB; /* #D71724;  #D2CFCF; */
     border-left: none;
     border-right: none;
-    border-top: 1px solid #D71724;
+    border-top: 1px solid #FBD8DB; /*#D71724 */
     
 }
 
