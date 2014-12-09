@@ -193,8 +193,12 @@ div.catItemIntroText {
     padding: 8px 15px;
     margin: 0px 0px 0px 0px;
     list-style: none;
-    background-color: #f5f5f5;
-    border: 1px solid #D2CFCF;
+    background-color: white; /* #f5f5f5; */
+    border-bottom: 1px solid #D71724; /* #D2CFCF; */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
 }
 
 .widget_text {
