@@ -162,7 +162,10 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 	  <?php if($this->item->params->get('catItemIntroText')): ?>
 	  <!-- Item introtext -->
 	  <div class="catItemIntroText">
-	  	<?php echo $this->item->introtext; ?>
+              <blockquote>
+                  <?php echo $this->item->introtext; ?>
+              </blockquote>
+	  	
 	  </div>
 	  <?php endif; ?>
 
