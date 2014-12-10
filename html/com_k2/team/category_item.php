@@ -36,27 +36,25 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 	<div class="catItemHeader">
 
 	  <?php if($this->item->params->get('catItemTitle')): ?>
-	  <!-- Item title  (PEDRO TEST) -->
+	  <!-- Item title  -->
 	  <h2 class="catItemTitle">
 
 	  	<?php if ($this->item->params->get('catItemTitleLinked')): ?>
 			<a href="<?php echo $this->item->link; ?>">
-	  		<?php echo $this->item->title; ?>
+                            <?php 
+                               $pedro_str = trim($this->item->title);
+                               $pedro = strpos($pedro_str,"Pedro",0);
+                               if ($pedro) {
+                                  echo "<span class='pedro'>$this->item->title</span>";
+                               } else {
+                                  echo $this->item->title;
+                               }     
+                               //echo $this->item->title;
+                            ?>
 	  	</a>
-	  	<?php else: ?>
-                   <?php 
-                     $pedro_str = trim($this->item->title);
-                     
-                     $pedro = strpos($pedro_str,"Pedro",0);
-                     if ($pedro) {
-                         die("PEDRO");
-                         echo "<span class='pedro'>$this->item->title</span>";
-                     } else {
-                         echo "TEST ".$this->item->title;
-                     }      
-                   ?>
+	  	<?php else: ?>       
                 
-	   	   <?php // echo $this->item->title; ?>
+	   	   <?php echo $this->item->title; ?>
               
 	  	<?php endif; ?>
 
