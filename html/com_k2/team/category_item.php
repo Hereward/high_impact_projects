@@ -45,8 +45,11 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 	  	</a>
 	  	<?php else: ?>
                    <?php 
-                     $pedro = strpos($this->item->title,"Pedro",0);
+                     $pedro_str = trim($this->item->title);
+                     
+                     $pedro = strpos($pedro_str,"Pedro",0);
                      if ($pedro) {
+                         die("PEDRO");
                          echo "<span class='pedro'>$this->item->title</span>";
                      } else {
                          echo $this->item->title;
