@@ -36,7 +36,7 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 	<div class="catItemHeader">
 
 	  <?php if($this->item->params->get('catItemTitle')): ?>
-	  <!-- Item title -->
+	  <!-- Item title  (PEDRO TEST) -->
 	  <h2 class="catItemTitle">
 
 	  	<?php if ($this->item->params->get('catItemTitleLinked')): ?>
