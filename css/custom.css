@@ -20,7 +20,9 @@
  */
 /* edits by leah, show contact form details */
 
-
+.pedro {
+    font-size:8px;
+}
 
 div.contact div.control-label {
     display:none;
