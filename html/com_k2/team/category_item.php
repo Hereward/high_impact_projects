@@ -49,7 +49,6 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
                                
                                $pedro = strpos($pedro_str,"Pedro",0);
                                if ($pedro === FALSE) {
-                                   
                                    echo $this->item->title;
                                } else {
                                    
