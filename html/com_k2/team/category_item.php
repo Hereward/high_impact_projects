@@ -45,14 +45,13 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
                                
                                $pedro_str = trim($this->item->title);
                                
-                               echo "<div>[$pedro_str]</div>";
+                               //echo "<div>[$pedro_str]</div>";
                                
                                $pedro = strpos($pedro_str,"Pedro",0);
-                               if ($pedro) {
-                                  die($pedro_str);
-                                  echo "<span class='pedro'>$this->item->title</span>";
+                               if ($pedro == false) {
+                                   echo $this->item->title;
                                } else {
-                                  echo $this->item->title;
+                                  echo "<span class='pedro'>$this->item->title</span>";
                                }     
                                //echo $this->item->title;
                             ?>
