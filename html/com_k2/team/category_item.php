@@ -52,7 +52,7 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
                          die("PEDRO");
                          echo "<span class='pedro'>$this->item->title</span>";
                      } else {
-                         echo $this->item->title;
+                         echo "TEST ".$this->item->title;
                      }      
                    ?>
                 
