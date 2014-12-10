@@ -42,6 +42,7 @@ K2HelperUtilities::setDefaultImage($this->item, 'itemlist', $this->params);
 	  	<?php if ($this->item->params->get('catItemTitleLinked')): ?>
 			<a href="<?php echo $this->item->link; ?>">
                             <?php 
+                               die("TEST");
                                $pedro_str = trim($this->item->title);
                                $pedro = strpos($pedro_str,"Pedro",0);
                                if ($pedro) {
