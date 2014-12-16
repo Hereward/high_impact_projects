@@ -323,8 +323,7 @@ dl.contact-address {
 #bottom-b h3 {
     margin: 0px 0px 0px 0px;
     padding:0;
-    color: #676766 !important;
-    text-align: left;
+    /* color: #676766 !important; */
     color: white !important;
     font-size: 11px !important;
 }
