@@ -67,6 +67,13 @@ div.contact .dl-horizontal dt {
     background-color: #050505;
 }
 
+#bottom-b h3 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 #bottom-b p, #bottom-b h3 {
     margin:0;
 }
