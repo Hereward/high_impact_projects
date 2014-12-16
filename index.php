@@ -16,8 +16,10 @@ require_once __DIR__ . '/lib/base.php';
 
 <head>
         <?php
-          $app = JFactory::getApplication();
-          $this->setTitle( $this->getTitle() . ' | ' . $app->getCfg( 'sitename' ) );
+          if ($this->getTitle() != $app->getCfg('sitename')) {
+              $app = JFactory::getApplication();
+              $this->setTitle($this->getTitle() . ' | ' . $app->getCfg('sitename'));
+          }
         ?>
 	<?php if ($template_responsive) : ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
