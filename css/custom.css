@@ -337,7 +337,7 @@ dl.contact-address {
     background-color: transparent;
 }
 
-.footer_slideshow .module-content {
+.footer_slideshow .module-content, .footer .module-content {
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
