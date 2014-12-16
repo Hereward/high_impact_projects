@@ -53,7 +53,7 @@ require_once __DIR__ . '/lib/base.php';
 			<?php endif; ?>
 
 				<div class="logo pull-left">
-					<?php echo $logo; ?>
+                                    <h1 class="logo"><?php echo $logo; ?></h1>
 				</div>
 
 				<button type="button" class="btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
