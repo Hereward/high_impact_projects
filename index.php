@@ -15,6 +15,10 @@ require_once __DIR__ . '/lib/base.php';
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 
 <head>
+        <?php
+          $app = JFactory::getApplication();
+          $this->setTitle( $this->getTitle() . ' | ' . $app->getCfg( 'sitename' ) );
+        ?>
 	<?php if ($template_responsive) : ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<?php endif; ?>
