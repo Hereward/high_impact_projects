@@ -318,6 +318,13 @@ dl.contact-address {
     list-style-image: initial;
 }
 
+.footer_slideshow h3 {
+    margin: 12px 0px 0px 0px;
+    padding:0;
+    color: #676766 !important;
+    text-align: center;
+}
+
 #bottom-b h3 {
     margin: 12px 0px 0px 0px;
     padding:0;
