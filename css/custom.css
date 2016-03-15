@@ -350,6 +350,14 @@ div.itemListCategory {
     margin-bottom:30px;
 }
 
+div.itemExtraFields ol li {
+    display: list-item;
+}
+div.itemExtraFields ol {
+    list-style-position: inside;
+}
+
+
 
 /*
 .container-fluid {
