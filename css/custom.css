@@ -357,6 +357,13 @@ div.itemExtraFields ol {
     list-style-position: inside;
 }
 
+@media (max-width: 480px) {
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 
 
 /*
